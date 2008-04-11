@@ -1,0 +1,10 @@
+%h1 Frequently Asked Questions
+
+- if @faqs.empty?
+%p There are no items to display.
+- else
+- @faqs.each do |faq|
+%p
+  = link_to faq.question, fq_url(faq) 
+- end
+- end

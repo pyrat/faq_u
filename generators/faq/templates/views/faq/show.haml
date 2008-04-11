@@ -1,0 +1,8 @@
+%p{:id => "faq_question"}
+  %strong
+    = @faq.question
+
+%p{:id => "faq_answer"}
+  = @faq.answer
+  
+= link_to "Back to FAQ", faq_url 

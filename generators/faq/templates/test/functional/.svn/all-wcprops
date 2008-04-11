@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/code/excited/!svn/ver/62/plugins/faq_u/generators/faq/templates/test/functional
+END
+faq_admin_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/code/excited/!svn/ver/46/plugins/faq_u/generators/faq/templates/test/functional/faq_admin_controller_test.rb
+END
+faq_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/code/excited/!svn/ver/62/plugins/faq_u/generators/faq/templates/test/functional/faq_controller_test.rb
+END

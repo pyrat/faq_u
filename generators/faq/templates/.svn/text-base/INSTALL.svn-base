@@ -1,0 +1,7 @@
+
+To get the database up to scratch please run :
+
+rake db:migrate
+
+The faq admin area is available at /faq_admin
+The front end is available at /faq

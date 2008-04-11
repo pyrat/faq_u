@@ -1,0 +1,8 @@
+%h1 New Faq Item
+
+- form_for(:faq, @faq, :url => faq_admin_url, :builder => SimpleBuilder) do |f|
+= render :partial => 'form', :locals => {:f => f}
+= submit_tag 'Create'
+or
+= link_to "Cancel", faq_admin_url
+- end

@@ -1,0 +1,7 @@
+Description:
+    Generates a FAQ admin controller, FAQ view controller, the necessary views and a collection of 
+    tests.
+
+Example:
+    `./script/generate faq`
+

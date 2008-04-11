@@ -1,0 +1,27 @@
+Plugin: Faq U
+Author: Alastair Brunton
+Web: http://www.simplyexcited.co.uk
+Blog Post: http://scoop.cheerfactory.co.uk/2007/12/20/faq_u-rails-faq-generator-plugin/
+==================================
+
+This is a simple layout-less unbranded Frequently Asked Questions rails generator. The idea is you generate the default system and then customise it to the requirements of the particular project that you are working on.
+
+Remember to add some authentication to the faq_admin controller.
+
+Requires HAML. To install it:
+(http://haml.hamptoncatlin.com/download/)
+
+gem install --no-ri haml
+haml --rails path/to/app
+
+Description:
+    Generates a FAQ admin controller, FAQ view controller, the necessary views and a collection of 
+    tests.
+
+Example:
+    `./script/generate faq`
+
+
+
+
+

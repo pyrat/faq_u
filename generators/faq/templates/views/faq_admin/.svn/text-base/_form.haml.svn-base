@@ -1,0 +1,2 @@
+~ f.text_area :question
+~ f.text_area :answer

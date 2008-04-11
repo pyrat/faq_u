@@ -1,0 +1,28 @@
+%h1 Listing Faq Items
+
+= flash_div :message
+
+- if @faqs.empty?
+%p There are no items to display.
+- else
+%table
+  %tr
+    %th Question
+    %th Answer
+    %th Action
+  - @faqs.each do |faq|
+  %tr
+    %td
+      = truncate(faq.question, 200)
+    %td
+      = truncate(faq.answer, 200)
+    %td
+      = link_to "Edit", edit_faq_adm_url(faq) 
+      | 
+      = link_to "Delete", faq_adm_url(faq), :method => :delete, :confirm => 'Are you sure?'
+  - end
+- end
+
+
+%p
+  = link_to "New Question", new_faq_adm_url 

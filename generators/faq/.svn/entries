@@ -1,0 +1,55 @@
+8
+
+dir
+65
+http://vorlich.ath.cx/code/excited/plugins/faq_u/generators/faq
+http://vorlich.ath.cx/code/excited
+
+
+
+2008-01-30T15:00:32.934934Z
+65
+pyrat
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ef0a0949-0e3e-0410-bc4c-b58f769047f5
+
+faq_generator.rb
+file
+
+
+
+
+2007-12-19T19:08:40.000000Z
+cee94f03be412d961fede4dadebdcfda
+2007-12-19T19:12:11.438453Z
+61
+pyrat
+
+USAGE
+file
+
+
+
+
+2007-12-19T19:18:21.000000Z
+20cb20d6f1174c4444deac1719b386ac
+2007-12-19T19:26:36.470803Z
+63
+pyrat
+
+templates
+dir
+
