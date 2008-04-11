@@ -1,61 +1,0 @@
-8
-
-dir
-65
-http://vorlich.ath.cx/code/excited/plugins/faq_u/generators/faq/templates
-http://vorlich.ath.cx/code/excited
-
-
-
-2008-01-30T15:00:32.934934Z
-65
-pyrat
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-ef0a0949-0e3e-0410-bc4c-b58f769047f5
-
-test
-dir
-
-helpers
-dir
-
-models
-dir
-
-controllers
-dir
-
-INSTALL
-file
-
-
-
-
-2007-12-19T18:58:27.000000Z
-3e885a852c1e91fd13d445a29c2dc9d7
-2007-12-19T19:00:56.848129Z
-59
-pyrat
-
-lib
-dir
-
-migrate
-dir
-
-views
-dir
-
